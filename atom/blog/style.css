@@ -1,0 +1,226 @@
+body {
+  background-color: black;
+}
+
+div {
+  width: 100%;
+  margin: auto;
+  background-color: white;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  border-right: 1px solid #CCCCCC;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: hotpink;
+}
+
+a:last-child { border: 0px }
+img { height: 100% }
+.logo { height: 200 }
+.right {text-align: right}
+.left {text-align: left}
+.center {text-align: center}
+.s_font {font-size: 10pt}
+.m_font {font-size: 14pt}
+.b_font {font-size: 20pt}
+.f_left {float: left}
+.f_right {float: right}
+.bold {font-weight: bold}
+
+.menu {
+  margin-top: 10;
+  height: 30;
+  padding-top: 5;
+}
+
+.left_menu {
+  margin-top: 10;
+  width: 20%;
+}
+.right_menu {
+  margin-top: 10;
+  width: 79%
+}
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin-left: 5%;
+  margin-top: 10;
+  margin-bottom: 10;
+}
+th, td {
+  padding: 5;
+}
+td:first-child {
+  padding-left: 20;
+}
+tbody tr, thead tr {
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.content {
+  width: 90%;
+}
+
+div.disable {
+  display: none;
+}
+
+.category p {
+  margin-left: 40;
+}
+
+input[type="text"] {
+  height: 100%;
+  border: 1px solid black;
+  padding-left: 5;
+  color: hotpink;
+}
+
+input[type="text"]::placeholder {
+  color: hotpink;
+}
+
+.content p {
+  height: 25px;
+  padding: 0;
+}
+
+button {
+  border: 1px solid black;
+  background-color: white;
+  color: hotpink;
+  height: 25;
+  padding-top: 0;
+  position: relative;
+  top: 1;
+}
+
+select {
+  color: hotpink;
+  height: 100%;
+  font-size: 9pt;
+  border: 1px solid black;
+}
+
+.del_cate a{
+  display: none;
+}
+
+.del_cate:hover a{
+  display: inline;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.cate_list {
+  width: 350;
+}
+
+th.subject, td.subject {
+  width:80%;
+}
+
+th.date, td.date {
+  width:13%;
+}
+
+td input[type="text"], td select {
+  height: 25;
+  width: 30%;
+}
+
+td span select {
+  width: 100%;
+}
+
+td textarea {
+  width: 90%;
+  height: 300;
+}
+
+.profile {
+  height: 100;
+}
+
+.album_content {
+  width: 23%;
+  height: 200;
+  margin-left: 1.5%;
+  margin-top: 10;
+}
+
+.album_img {
+  height: 150;
+}
+
+.album_img img, .album_img video {
+  height: 100%;
+  width: 100%;
+}
+
+.album_subject {
+  height: 50;
+}
+
+.writer {
+  position: sticky;
+  top: 0;
+}
+
+.album_img:hover .img_menu {
+  display: inline;
+}
+
+.img_menu {
+  display: none;
+  color: hotpink;
+}
+
+.reply_table input[type="text"] {
+  width: 100%;
+}
+
+.reply_table .subject {
+  width: 70%;
+}
+
+.reply_table tr {
+  border-bottom: 0px;
+}
+
+.reply_table  td:first-child{
+  width: 15%;
+}
+
+.reply_comment {
+  height: 100;
+  resize: none;
+}
+
+
+[id *= "reply_input"] {
+  display: none;
+}
+
+textarea {
+  height: 70px;
+  width: 100%;
+}
+
+.guest_list {
+  height: 50;
+  margin-bottom: 10;
+}
+
+----

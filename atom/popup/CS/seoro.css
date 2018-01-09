@@ -1,0 +1,45 @@
+body, p, td, input, select, textarea {font-size:10pt;}
+A:link    { text-decoration: none; color:#000000;}
+A:visited { text-decoration: none; color:#000000;}
+A:hover   { text-decoration: underline; color:#000000;}
+a.top_menu:link          { font-weight:bold; color:yellow; }
+a.top_menu:visited       { font-weight:bold; color:yellow; }
+a.top_menu:hover         { font-weight:bold; text-decoration: none; color:#09C1E8; }
+a.top_menu1:link          { font-weight:bold; color:#ACF0F1; }
+a.top_menu1:visited       { font-weight:bold; color:#ACF0F1; }
+a.top_menu1:hover         { font-weight:bold; text-decoration: none; color:yellow; }
+a.top_menu2:link          { font-weight:bold; color:white; }
+a.top_menu2:visited       { font-weight:bold; color:white; }
+a.top_menu2:hover         { font-weight:bold; text-decoration: none; color:#09C1E8; }
+a.top_menu3:link          { font-weight:bold; color:blue; }
+a.top_menu3:visited       { font-weight:bold; color:blue; }
+a.top_menu3:hover         { font-weight:bold; text-decoration: none; color:#09C1E8; }
+a.bottom_menu1:link          { color:#666666; }
+a.bottom_menu1:visited       { color:#666666; }
+a.bottom_menu1:hover         { text-decoration: none; color:#A342ED; }
+a.bottom_menu2:link          { color:#000000; }
+a.bottom_menu2:visited       { color:#000000; }
+a.bottom_menu2:hover         { text-decoration: none; color:green; }
+a.bottom_menu3:link          { color:#000000; }
+a.bottom_menu3:visited       { color:#000000; }
+a.bottom_menu3:hover         { text-decoration: none; color:red; }
+a.bottom_menu4:link          { color:#000000; }
+a.bottom_menu4:visited       { color:#000000; }
+a.bottom_menu4:hover         { text-decoration: none; color:#E87C09; }
+a.bottom_menu5:link          { color:#ffffff; }
+a.bottom_menu5:visited       { color:#ffffff; }
+a.bottom_menu5:hover         { text-decoration: none; color:#DDB9B9; }
+.ljs_fontcolor   { color:white; }
+.ljs_fontcolor2  { color:yellow; }
+.ljs_spansize    {font-size:10pt; }
+.ljs_bgc_table   { background-color:#757783; }
+.ljs_bgc_a   { background-color:#E4F7EE; }
+.ljs_bgc_b   { background-color:#D9F7F4; }
+.ljs_bgc_c   { background-color:#F2F2FC; }
+.ljs_bgc_d   { background-color:#C0C0C0; }
+.shop_fontcolor   { color:#FFFFFF; }
+.shop_bgc_table   { background-color:#46A46C; }
+.shop_bgc_a   { background-color:#E4F7EE; }
+.ljs_height120 { line-height:120%; }
+.ljs_height150 { line-height:150%; }
+.ljs_height200 { line-height:200%; }
